@@ -1,15 +1,16 @@
 # Password_Checker
 This is a simple Flask-based web application that checks password strength using HTML, CSS, and JavaScript. It runs locally in a browser.
 
-📂 Project Structure
+📂 Project Structure<br>
 PasswordCheckerApp/
- ├── static/
- │    ├── script.js
- │    └── style.css
- ├── templates/
- │    └── index.html
- ├── app.py
- └── README.md
+├── static/
+│   ├── script.js
+│   └── style.css
+├── templates/
+│   └── index.html
+├── app.py
+└── README.md
+
 
 🚀 Features
 
@@ -70,7 +71,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 Start SSH agent and add key:
 
-eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"<br>
 ssh-add ~/.ssh/id_ed25519
 
 
@@ -88,11 +89,11 @@ Test connection
 ssh -T git@github.com
 
 ✅ Git Commands to Push
-git init
-git add .
-git commit -m "Initial password checker app"
-git branch -M main
-git remote add origin git@github.com:USERNAME/REPO.git
+git init<br>
+git add .<br>
+git commit -m "Initial password checker app"<br>
+git branch -M main<br>
+git remote add origin git@github.com:USERNAME/REPO.git<br>
 git push -u origin main
 
 📌 Notes
